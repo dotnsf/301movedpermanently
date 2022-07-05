@@ -17,6 +17,11 @@ Sample application which just returns 301 status code.
     - Edit and replace `package.json` for your use.
 
 
+## Reference
+
+https://developer.mozilla.org/ja/docs/Web/HTTP/Status/301
+
+
 ## Licensing
 
 This code is licensed under MIT.
