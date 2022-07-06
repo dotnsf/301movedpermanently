@@ -14,8 +14,17 @@ Sample application which just returns 301 status code.
 
     - `https://new.target.url/` = forwarded/redirected (new) URL.
 
-    - Edit and replace `package.json` for your use.
+    - Default value: `https://www.google.com`.
 
+    - Edit and replace `package.json` if you need it.
+
+- `POST_REDIRECT` : To redirect with 308 staus for POST/PUT/DELETE method
+
+  - `$ POST_REDIRECT=1 URL=https://new.target.url/ node app`
+
+    - Default value: 0(no redirect).
+
+    - Edit and replace `package.json` if you need it.
 
 ## Reference
 
